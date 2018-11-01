@@ -114,17 +114,17 @@ p {
 	color:#fff;
 }
 
-/* Just for presentation */
+/* Just for presentation 
 body{
   position: absolute;
   height: 100%;
   width: 100%;
   background: aliceblue;
-}
+
 
 /* Animated Side Navigation Menu */
 .sidenav {
-    height: 100%;
+    /*height: 100%;*/
     width: 0;
     position: fixed;
     z-index: 1;
