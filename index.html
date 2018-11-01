@@ -6,6 +6,25 @@
   </head>
   <body>
     Something super simple.</ br>
-  <a href="https://amullin.github.io/projects"> Link to Projects page. </a>
-  </body>
+  <a href=> Link to Projects page. </a>
+  
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="https://amullin.github.io/projects" class="button yellowgreen">Projects</a>
+  <a href="#">Contact</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
 </html>
